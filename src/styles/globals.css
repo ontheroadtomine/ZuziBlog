@@ -87,12 +87,12 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 a {
@@ -104,4 +104,9 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+/* 修改默认root div的高度 */
+#__next {
+  height: 100vh;
 }
