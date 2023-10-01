@@ -1,5 +1,5 @@
 import styles from "@/styles/SignUp.module.css";
-import SignUp  from "../component/ZSignUp";
+import SignUp  from "../component/SignUp";
 
 export default function SignUpPage() {
   return (
